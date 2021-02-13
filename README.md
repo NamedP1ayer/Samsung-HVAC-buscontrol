@@ -5,6 +5,9 @@ So far I reverse engineered the communication protocol and with the information 
 
 Note that this does not describe the communication protocol of a wireless IR controller !!
 
+## Why did I fork this?
+I'd like to use this repo as a start for a package which I could use for my home automation. To do this I will need to seperate the current scripts into a reusable section and the 4 applications. 
+
 ## Physical layer
 The physical layer is a 2 wire RS-485 communications bus. Each unit has 2 such busses. The wires are labelled F1, F2, F3 and F4. F1 and F2 are used for communications with the outdoor unit, the F3 and F4 wires are used for the wired remote control.
 
